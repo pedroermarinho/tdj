@@ -18,7 +18,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-  background-color: #353D41;
+  background-color: #00ff77;
 }
 
 #nav-container {
@@ -27,20 +27,23 @@ header, .navbar {
 }
 
 #logo {
-  width: 75px;
+  width: 55px;
+}
+#title{
+    color: #444;
 }
 
 .navbar-brand {
   padding: 0;
-  color: #FFF;
+  color: #444;
 }
 
 .navbar-brand:hover {
-  color: #FFF;
+  color: #444;
 }
 
 #navbar-links a {
-  color: #FFF;
+  color: #444;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -180,12 +183,6 @@ header, .navbar {
   font-size: 32px;
 }
 
-#data-area p {
-  color: #FFF;
-  text-align: center;
-  font-size: 26px;
-  margin-top: 20px;
-}
 
 /* Time */
 
@@ -195,18 +192,6 @@ header, .navbar {
 
 /* Trabalhe conosco */
 
-#apply-area {
-  height: 500px;
-}
-
-#apply-area .container-fluid, #apply-area .row {
-  height: 100%;
-}
-
-#apply-area .apply-box {
-  padding: 70px 50px;
-  text-align: center;
-}
 
 #company-img {
   background-image: url('../img/empresa.jpg');
@@ -314,43 +299,6 @@ header, .navbar {
 #news-btn:hover {
   background-color: #FFF;
   color: #65DAF9;
-}
-
-/* Call To Action */
-
-#call-area {
-  background-color: #65DAF9;
-  text-transform: uppercase;
-}
-
-#call-area .container {
-  padding: 40px 100px;
-}
-
-#call-area .row {
-  display: block;
-  text-align: center;
-}
-
-#call-area p {
-  color: #FFF;
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 0;
-  height: 60px;
-  line-height: 60px;
-  letter-spacing: 2px;
-  display: inline;
-}
-
-#call-area #call-btn {
-  background-color: #FFF;
-  color: #65DAF9;
-  font-weight: bold;
-  margin-left: 30px;
-  font-size: 20px;
-  width: auto;
-  letter-spacing: 2px;
 }
 
 /* Footer */
@@ -465,9 +413,6 @@ header, .navbar {
     padding: 0 10px;
   }
 
-  #data-area p {
-    font-size: 16px;
-  }
   
   /* team */
   .card-title {
@@ -478,10 +423,6 @@ header, .navbar {
     font-size: 12px;
   }
 
-  /* apply */
-  #apply-area .apply-box {
-    padding: 50px 25px;
-  }
 
   /* news */
   #news-area p {
@@ -492,18 +433,6 @@ header, .navbar {
 
   #email-input {
     width: 70%;
-  }
-
-  #call-area {
-    margin-top: 30px;
-  }
-
-  #call-area .container {
-    padding: 30px;
-  }
-
-  #call-area p, #call-area #call-btn {
-    font-size: 16px;
   }
 
 }
@@ -549,15 +478,6 @@ header, .navbar {
     width: 50%;
   }
 
-  #team-area .col-md-3 {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-
-  /* apply */
-  #apply-area {
-    height: auto;
-  }
 
   #company-img {
     display: none;
@@ -583,16 +503,6 @@ header, .navbar {
 
   #email-input {
     width: 80%;
-  }
-
-  #call-area p, #call-area #call-btn {
-    font-size: 14px;
-    letter-spacing: 0;
-  }
-
-  #call-area p, #call-area #call-btn {
-    margin: 0;
-    width: 50%;
   }
 
   /* contact */
