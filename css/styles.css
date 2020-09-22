@@ -3,6 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 .row {
   margin: 0;
 }
@@ -11,15 +13,23 @@ body {
   padding: 70px 0;
 }
 
+/*444*/
 p, li {
-  color: #444;
+  color: rgb(0, 0, 0);
   font-size: 14px;
 }
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color:rgb(0 , 0, 0);
+}
+
+
 
 /* Barra de navegação */
 /*#00ff77,*/
 header, .navbar {
-  background-color: #00ff40;
+  background-color: #22fa34;
 }
 
 
@@ -129,7 +139,7 @@ header, .navbar {
 
 .about-title {
   font-size: 17px;
-  color: #444;
+  color:rgb(0 , 0, 0);
   text-transform: uppercase;
   font-weight: bold;
 }
