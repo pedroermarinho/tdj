@@ -17,9 +17,11 @@ p, li {
 }
 
 /* Barra de navegação */
+/*#00ff77,*/
 header, .navbar {
-  background-color: #00ff77;
+  background-color: #00ff40;
 }
+
 
 #nav-container {
   padding-top: 0;
