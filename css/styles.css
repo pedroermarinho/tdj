@@ -408,7 +408,7 @@ header, .navbar {
   
   /* geral */
   .container {
-    padding: 20px 0;
+    padding: 50px 0;
   }
   
   /* slider */
@@ -464,9 +464,10 @@ header, .navbar {
 
 }
 
-.text help{
-  border-top: 90px;
-  margin-top: 80px;
+.text_help{
+  margin-top: 5px;
+  margin-left: 10;
+  margin-right: 10;
 }
 
 
